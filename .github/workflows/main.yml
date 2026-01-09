@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - "**"
-
+ 
 jobs:
   snyk-sca-scan:
     runs-on: ubuntu-latest
